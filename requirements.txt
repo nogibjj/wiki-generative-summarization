@@ -1,0 +1,6 @@
+bs4
+sentence_transformers
+numpy
+requests
+nltk
+transformers
