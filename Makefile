@@ -6,6 +6,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C *.py
+	pyflakes *.py
 
 all: install format lint
