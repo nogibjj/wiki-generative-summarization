@@ -1,6 +1,7 @@
 bs4
 sentence_transformers
 numpy
+click
 requests
 nltk
 transformers
