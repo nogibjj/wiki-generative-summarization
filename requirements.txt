@@ -2,6 +2,7 @@ bs4
 sentence_transformers
 numpy
 click
+black
 pyflakes
 requests
 nltk
