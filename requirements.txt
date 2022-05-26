@@ -3,7 +3,7 @@ sentence_transformers
 numpy
 click
 black
-pyflakes
+flake8
 requests
 nltk
 transformers

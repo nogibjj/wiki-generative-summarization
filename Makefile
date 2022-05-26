@@ -3,9 +3,9 @@ install:
 		pip install -r requirements.txt
 
 format:
-	black *.py
+	black *.py --line-length 79
 
 lint:
-	pyflakes *.py
+	flake8 *.py
 
 all: install format lint
