@@ -12,7 +12,7 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-    - name: Lint with pyflakes
+    - name: Lint with flake8
       run: |
         make lint
     - name: Format code
