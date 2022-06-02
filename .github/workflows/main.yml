@@ -1,5 +1,7 @@
-name: Python application test with Github Actions
+name: Wiki Generative Summarization CLI Tool
+
 on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +17,9 @@ jobs:
     - name: Lint with flake8
       run: |
         make lint
+    - name: Test with pytest
+      run: |
+        make test
     - name: Format code
       run: |
         make format

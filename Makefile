@@ -8,4 +8,7 @@ format:
 lint:
 	flake8 *.py
 
-all: install format lint
+test:
+	python -m pytest -vv test_wiki_summarizer.py
+
+all: install format lint test

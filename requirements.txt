@@ -1,9 +1,4 @@
-bs4
-sentence_transformers
-numpy
-click
-black
-flake8
-requests
-nltk
-transformers
+beautifulsoup4==4.11.1
+click==8.1.3
+requests==2.27.1
+transformers==4.19.2
