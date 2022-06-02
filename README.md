@@ -1,6 +1,7 @@
-# wiki-generative-summarization
+# Wikipedia Generative Summarization
+### Shyamal Anadkat
 
-[![Wiki Generative Summarization CLI Tool](https://github.com/nogibjj/wiki-generative-summarization/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/wiki-generative-summarization/actions/workflows/main.yml)
+[![build](https://github.com/nogibjj/wiki-generative-summarization/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/nogibjj/wiki-generative-summarization/actions/workflows/main.yml)
 
 CLI tool that uses a pre-trained model to generate summary for a Wikipedia article. 
 We will use the open source Hugging Face library to load and use a transformer model.
@@ -15,7 +16,7 @@ We will use the open source Hugging Face library to load and use a transformer m
 ## Usage
 
 ```
-python3 main.py --url "https://en.wikipedia.org/wiki/Construct_validity"
+python3 wiki_summarizer.py --url "https://en.wikipedia.org/wiki/Construct_validity"
 ```
 
 Example output
