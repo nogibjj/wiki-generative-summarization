@@ -86,4 +86,4 @@ def get_article_text(wiki_url):
 
 
 if __name__ == "__main__":
-    summarize()
+    summarize()  # pylint: disable=no-value-for-parameter

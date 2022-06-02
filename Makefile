@@ -6,7 +6,7 @@ format:
 	black *.py --line-length 79
 
 lint:
-	flake8 *.py
+	pylint --disable=R,C,broad-except,bare-except,consider-using-f-string wiki_summarizer.py
 
 test:
 	python -m pytest -vv test_wiki_summarizer.py
