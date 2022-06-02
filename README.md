@@ -35,7 +35,7 @@ validity of the test.
 Creating virtual environment:
 
  1. `python3 -m venv dev`
- 2. (On Unix or MacOS) `source .dev/bin/activate`
+ 2. (On Unix or MacOS) `source dev/bin/activate`
 
 Contributing guidelines:
 
