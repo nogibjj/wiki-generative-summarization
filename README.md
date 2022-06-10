@@ -18,6 +18,13 @@ We will use the open source Hugging Face library to load and use a transformer m
 ```
 python3 wiki_summarizer.py --url "https://en.wikipedia.org/wiki/Construct_validity"
 ```
+OR 
+```
+chmod +x wiki_summarizer.py
+./wiki_summarizer.py --url <wiki-url>
+```
+
+
 
 Example output
 ```
@@ -36,7 +43,7 @@ validity of the test.
 Creating virtual environment:
 
  1. `python3 -m venv venv`
- 2. (On Unix or MacOS) `source venv/bin/activate`
+(On Unix or MacOS) `source venv/bin/activate`
 
 Contributing guidelines:
 
